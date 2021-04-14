@@ -11,11 +11,12 @@ class App extends Component {
 
 
   //Your code here:
+  //in componentDidMount include setInterval to call clockTick
+  //Write a componentDidMount that initializes an interval. Pass clockTick as the callback function and set it to 1000 to update every second
 
-
-
-
-
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
 
 
